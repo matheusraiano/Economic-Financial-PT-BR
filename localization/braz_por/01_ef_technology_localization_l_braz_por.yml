@@ -1,0 +1,49 @@
+l_braz_por:
+
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+
+  # ██╗███╗   ██╗██╗   ██╗███████╗███╗   ██╗████████╗██╗ ██████╗ ███╗   ██╗
+  # ██║████╗  ██║██║   ██║██╔════╝████╗  ██║╚══██╔══╝██║██╔═══██╗████╗  ██║
+  # ██║██╔██╗ ██║██║   ██║█████╗  ██╔██╗ ██║   ██║   ██║██║   ██║██╔██╗ ██║
+  # ██║██║╚██╗██║╚██╗ ██╔╝██╔══╝  ██║╚██╗██║   ██║   ██║██║   ██║██║╚██╗██║
+  # ██║██║ ╚████║ ╚████╔╝ ███████╗██║ ╚████║   ██║   ██║╚██████╔╝██║ ╚████║
+  # ╚═╝╚═╝  ╚═══╝  ╚═══╝  ╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
+
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+
+  ################################
+  #building
+  ################################
+  stockpiling_goods:0 "Estocagem de Produtos"
+  stockpiling_goods_desc:0 "Uma vez que a tecnologia de Estoque Nacional seja desbloqueada, seu país começará a [concept_flow_storage]. O [concept_flow_storage] armazena o excedente do mercado, sem custo. Ao contrário da ordem de armazenamento ou liberação possível graças à tecnologia de estoque nacional, que pode ser cara para o país, mas permite que você faça melhores reservas estratégicas."
+
+  national_stockpile:0 "Estoque Nacional"
+  national_stockpile_desc:0 "Esta tecnologia permitirá que você crie um Estoque Nacional"
+
+  financial_center:0 "Centro Financeiro"
+  financial_center_desc:0 "Esta tecnologia permitirá que você crie um Centro Financeiro"
+
+  ################################
+  #mechanique:
+  ################################
+  monetary_policy_tools:0 "Ferramentas de Política Monetária"
+  monetary_policy_tools_desc:0 "Esta tecnologia permite que você faça a gestão completa de sua Moeda Nacional"
+
+  metalique_standard:0 "Padrão Metálico"
+  metalique_standard_desc:0 "O Padrão Metálico é um sistema monetário no qual o valor da moeda de um país está diretamente vinculado a um ou mais metais preciosos, tipicamente ouro ou prata. As moedas são cunhadas a partir desses metais ou conversíveis em uma quantidade fixa de metal mediante demanda. Nações que adotam este sistema frequentemente estabelecem uma proporção fixa entre a moeda e o metal, visando estabilizar o comércio internacional e limitar flutuações monetárias. Este sistema pode assumir várias formas, como o padrão-ouro, padrão-prata ou bimetalismo, onde ambos os metais coexistem como base de valor"
+
+  debt_currency_exchange_regime:0 "Regime de Câmbio de Dívida em Moeda"
+  debt_currency_exchange_regime_desc:0 "O Regime de Câmbio de Dívida em Moeda é uma inovação financeira revolucionária que permite às nações comprar e trocar dívida estrangeira usando suas próprias moedas nacionais em vez de ouro ou outras reservas físicas. Este mecanismo representa um ponto de virada importante no sistema financeiro internacional, oferecendo maior flexibilidade e reduzindo as restrições vinculadas ao padrão-ouro."
+
+  gold_exchange_standard:0 "Padrão de Câmbio-Ouro"
+  gold_exchange_standard_desc:0 "O Padrão de Câmbio-Ouro foi um sistema monetário que surgiu como uma variação do Padrão-Ouro. Operou durante o período entre guerras, particularmente após a Primeira Guerra Mundial e antes da adoção do sistema de Bretton Woods. No Padrão de Câmbio-Ouro, os países mantinham suas reservas não apenas em ouro, mas também em moedas estrangeiras, principalmente o dólar americano, que era conversível em ouro. Isso permitiu maior flexibilidade no comércio e finanças internacionais, já que os países podiam manter reservas em uma mistura de ouro e principais moedas estrangeiras. No entanto, o sistema enfrentou desafios, incluindo a escassez de ouro, levando a ajustes e, finalmente, abrindo caminho para o sistema de Bretton Woods na era pós-Segunda Guerra Mundial."
+
+  floating_exchange_rates:0 "Taxas de Câmbio Flutuantes"
+  floating_exchange_rates_desc:0 "O sistema de Taxas de Câmbio Flutuantes é um arranjo monetário onde os valores das moedas são determinados pelas forças de oferta e demanda nos mercados de câmbio. Ao contrário dos sistemas de taxa de câmbio fixa, onde governos ou bancos centrais estabelecem o valor de sua moeda em relação a outra, as taxas de câmbio flutuantes permitem que os valores das moedas flutuem livremente com base nas condições do mercado"
+

@@ -1,0 +1,82 @@
+l_braz_por:
+
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+
+  # ██████╗ ██████╗  ██████╗ ██████╗ ██╗   ██╗ ██████╗████████╗██╗ ██████╗ ███╗   ██╗        ███╗   ███╗███████╗████████╗██╗  ██╗ ██████╗ ██████╗ ███████╗
+  # ██╔══██╗██╔══██╗██╔═══██╗██╔══██╗██║   ██║██╔════╝╚══██╔══╝██║██╔═══██╗████╗  ██║        ████╗ ████║██╔════╝╚══██╔══╝██║  ██║██╔═══██╗██╔══██╗██╔════╝
+  # ██████╔╝██████╔╝██║   ██║██║  ██║██║   ██║██║        ██║   ██║██║   ██║██╔██╗ ██║        ██╔████╔██║█████╗     ██║   ███████║██║   ██║██║  ██║███████╗
+  # ██╔═══╝ ██╔══██╗██║   ██║██║  ██║██║   ██║██║        ██║   ██║██║   ██║██║╚██╗██║        ██║╚██╔╝██║██╔══╝     ██║   ██╔══██║██║   ██║██║  ██║╚════██║
+  # ██║     ██║  ██║╚██████╔╝██████╔╝╚██████╔╝╚██████╗   ██║   ██║╚██████╔╝██║ ╚████║███████╗██║ ╚═╝ ██║███████╗   ██║   ██║  ██║╚██████╔╝██████╔╝███████║
+  # ╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═════╝  ╚═════╝  ╚═════╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚═╝     ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚══════╝
+
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+
+  ################################
+  ## private construction
+  ################################
+  pmg_base_building_private_construction_sector:0 "Setor de Construção Privada"
+  pm_wooden_buildings_private:0 "Edifícios de Madeira"
+  pm_iron_frame_buildings_private:0 "Edifícios com Estrutura de Ferro"
+  pm_steel_frame_buildings_private:0 "Edifícios com Estrutura de Aço"
+  pm_arc_welded_buildings_private:0 "Edifícios Soldados a Arco"
+
+
+
+  ################################
+  ## silver mine
+  ################################
+
+  pmg_mining_equipment_building_silver_mine:0 "Equipamento de Mineração"
+  pm_picks_and_shovels_building_silver_mine:0 "Picaretas e Pás"
+  pm_atmospheric_engine_pump_building_silver_mine:0 "Bomba de Motor Atmosférico"
+  pm_condensing_engine_pump_building_silver_mine:0 "Bomba de Motor de Condensação"
+  pm_diesel_pump_building_silver_mine:0 "Bomba Diesel"
+
+  pmg_explosives_building_silver_mine:0 "Explosivos"
+  pm_nitroglycerin_building_silver_mine:0 "Nitroglicerina"
+  pm_dynamite_building_silver_mine:0 "Dinamite"
+
+  pmg_steam_automation_building_silver_mine:1 "$pmg_steam_automation$"
+  pm_steam_donkey_building_silver_mine:0 "Guincho a Vapor"
+
+  pmg_train_automation_building_silver_mine:1 "$pmg_train_automation$"
+
+
+  pmg_private_ownership_manufacture_stock:0 "Propriedade Privada"
+  pmg_private_ownership_agricultural_stock:0 "Propriedade Privada"
+  pmg_private_ownership_mining_stock:0 "Propriedade Privada"
+  pmg_private_ownership_railway_stock:0 "Propriedade Privada"
+
+  ################################
+  ## Industry currrency issued PM
+  ################################
+  pmg_currency_type:0 "Moeda Emitida"
+
+  # Dinar
+  pm_currency_dinar_currency:0 "Dinar"
+  pm_currency_dinar_algerian_dinar_currency:0 "Dinar Argelino"
+  pm_currency_dinar_iraqi_dinar_currency:0 "Dinar Iraquiano"
+  pm_currency_dinar_libyan_dinar_currency:0 "Dinar Líbio"
+  pm_currency_dinar_moroccan_dirham_currency:0 "Dirham Marroquino"
+  pm_currency_dinar_omanian_rial_currency:0 "Rial Omanense"
+  pm_currency_dinar_qiran_currency:0 "Qiran"
+  pm_currency_dinar_saudi_riyal_currency:0 "Riyal Saudita"
+  pm_currency_dinar_serbian_dinar_currency:0 "Dinar Sérvio"
+  pm_currency_dinar_tunisian_dinar_currency:0 "Dinar Tunisiano"
+  pm_currency_dinar_yugoslav_dinar_currency:0 "Dinar Iugoslavo"
+
+  # Dollar
+  pm_currency_dollar_australian_dollar_currency:0 "Dólar Australiano"
+  pm_currency_dollar_canadian_dollar_currency:0 "Dólar Canadense"
+  pm_currency_dollar_caribbean_dollar_currency:0 "Dólar Caribenho"
+  pm_currency_dollar_confederate_states_dollar_currency:0 "Dólar dos Estados Confederados"
+  pm_currency_dollar_liberian_dollar_currency:0 "Dólar Liberiano"
+  pm_currency_dollar_new_zealand_dollar_currency:0 "Dólar Neozelandês"
+  pm_currency_dollar_sierra_leonean_dollar_currency:0 "Dólar de Serra Leoa"
+  pm_currency_dollar_united_states_dollar_currency:0 "Dólar Americano"

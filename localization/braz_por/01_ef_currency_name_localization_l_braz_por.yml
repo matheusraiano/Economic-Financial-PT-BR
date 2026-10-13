@@ -1,0 +1,82 @@
+l_braz_por:
+
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+
+  #     ██████╗██╗   ██╗██████╗ ██████╗ ███████╗███╗   ██╗ ██████╗██╗   ██╗     ███╗   ██╗ █████╗ ███╗   ███╗███████╗
+  #    ██╔════╝██║   ██║██╔══██╗██╔══██╗██╔════╝████╗  ██║██╔════╝╚██╗ ██╔╝     ████╗  ██║██╔══██╗████╗ ████║██╔════╝
+  #    ██║     ██║   ██║██████╔╝██████╔╝█████╗  ██╔██╗ ██║██║      ╚████╔╝      ██╔██╗ ██║███████║██╔████╔██║█████╗
+  #    ██║     ██║   ██║██╔══██╗██╔══██╗██╔══╝  ██║╚██╗██║██║       ╚██╔╝       ██║╚██╗██║██╔══██║██║╚██╔╝██║██╔══╝
+  #    ╚██████╗╚██████╔╝██║  ██║██║  ██║███████╗██║ ╚████║╚██████╗   ██║███████╗██║ ╚████║██║  ██║██║ ╚═╝ ██║███████╗
+  #     ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝   ╚═╝╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝
+
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+
+  gold_good:0 "@gold!"
+  silver_good:0 "@silver!"
+  bimetallism_good:0 "@bimetallism!"
+
+  gold_name:0 "Ouro"
+  silver_name:0 "Prata"
+  bimetallism_name:0 "Bimetálico"
+
+  silver:0 "Prata"
+
+  #dinar
+  dinar:0 "Dinar"
+  dinar_good:0 "@dinar_c!"
+  dinar_ISO_4217:0 "DIN"
+  dinar_texture:0 "@dinar!"
+
+  #dinar_algerian_dinar
+  dinar_algerian_dinar:0 "Dinar Argelino"
+  dinar_algerian_dinar_good:0 "@dinar_algerian_dinar_c!"
+  dinar_algerian_dinar_ISO_4217:0 "DZD"
+  dinar_algerian_dinar_texture:0 "@dinar_algerian_dinar!"
+
+  #dollar_united_states_dollar
+  dollar_united_states_dollar:0 "Dólar Americano"
+  dollar_united_states_dollar_good:0 "@dollar_united_states_dollar_c!"
+  dollar_united_states_dollar_ISO_4217:0 "USD"
+  dollar_united_states_dollar_texture:0 "@dollar_united_states_dollar!"
+
+  #franc_french_franc
+  franc_french_franc:0 "Franco Francês"
+  franc_french_franc_good:0 "@franc_french_franc_c!"
+  franc_french_franc_ISO_4217:0 "FRF"
+  franc_french_franc_texture:0 "@franc_french_franc!"
+
+  #pound_sterling
+  pound_sterling:0 "Libra Esterlina"
+  pound_sterling_good:0 "@pound_sterling_c!"
+  pound_sterling_ISO_4217:0 "GBP"
+  pound_sterling_texture:0 "@pound_sterling!"
+
+  #real_brazilian_real
+  real_brazilian_real:0 "Real Brasileiro"
+  real_brazilian_real_good:0 "@real_brazilian_real_c!"
+  real_brazilian_real_ISO_4217:0 "BRL"
+  real_brazilian_real_texture:0 "@real_brazilian_real!"
+
+  #mark
+  mark:0 "Marco"
+  mark_good:0 "@mark_c!"
+  mark_ISO_4217:0 "MRK"
+  mark_texture:0 "@mark!"
+
+  #spe_yen
+  spe_yen:0 "Iene"
+  spe_yen_good:0 "@spe_yen_c!"
+  spe_yen_ISO_4217:0 "JPY"
+  spe_yen_texture:0 "@spe_yen!"
+
+  #spe_ruble
+  spe_ruble:0 "Rublo"
+  spe_ruble_good:0 "@spe_ruble_c!"
+  spe_ruble_ISO_4217:0 "RUB"
+  spe_ruble_texture:0 "@spe_ruble!"

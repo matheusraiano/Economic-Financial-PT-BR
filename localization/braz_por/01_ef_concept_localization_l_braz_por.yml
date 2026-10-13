@@ -1,0 +1,100 @@
+l_braz_por:
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+
+  #  ██████╗ ██████╗ ███╗   ██╗ ██████╗███████╗██████╗ ████████╗███████╗
+  # ██╔════╝██╔═══██╗████╗  ██║██╔════╝██╔════╝██╔══██╗╚══██╔══╝██╔════╝
+  # ██║     ██║   ██║██╔██╗ ██║██║     █████╗  ██████╔╝   ██║   ███████╗
+  # ██║     ██║   ██║██║╚██╗██║██║     ██╔══╝  ██╔═══╝    ██║   ╚════██║
+  # ╚██████╗╚██████╔╝██║ ╚████║╚██████╗███████╗██║        ██║   ███████║
+  #  ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝╚══════╝╚═╝        ╚═╝   ╚══════╝
+  #concept_part
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+
+  ################################
+  #BUILDING
+  ################################
+
+  concept_central_bank:0 "Banco Central"
+  concept_central_bank_desc:0 "No século XIX, um [concept_central_bank] era geralmente definido como uma instituição econômica com o papel primário de emitir a moeda nacional, regular a [concept_money_supply], supervisionar o sistema financeiro e manter a estabilidade econômica. [concept_central_bank] do século XIX eram frequentemente estabelecidos em resposta à necessidade de um emissor central de moeda capaz de controlar a [concept_money_supply] e estabilizar o sistema econômico."
+
+  concept_financial_centre:0 "Centro Financeiro"
+  concept_financial_centre_desc:0 "No século XIX, um [concept_financial_centre] era uma região economicamente significativa, onde as atividades bancárias, financeiras e comerciais eram concentradas. Esses [concept_financial_centre] eram frequentemente centros para instituições bancárias, mercados financeiros, corporações e outros participantes empresariais."
+
+  concept_national_stockpile:0 "Estoque Nacional"
+  concept_national_stockpile_desc:0 "Um 'estoque' é uma reserva substancial ou acumulação de algo, tipicamente bens, commodities ou recursos, armazenados em antecipação de necessidades futuras ou para lidar com situações de emergência. Também pode se referir a uma grande quantidade de algo que é acumulado ao longo de um período de tempo."
+
+  ################################
+  #divers
+  ################################
+
+  concept_money_value:0 "Valor da Moeda"
+  concept_money_value_desc:0 "O [concept_money_value] é determinado pelo [concept_national_stockpile] dividido pela quantidade total de moeda produzida e em circulação em seu mercado ([concept_money_supply]). Se a moeda nacional sai do seu mercado, o valor da moeda aumentará; se a moeda nacional entra em seu mercado, o valor da moeda diminuirá. Da mesma forma, se você aumentar a produção de moeda, isso diminuirá o valor monetário, enquanto diminuir a produção aumentará o valor monetário."
+
+  concept_money_value_target_real:0 "Paridade Metálica"
+  concept_money_value_target_real_desc:0 "A Paridade Metálica é o valor em metal que você deseja que sua moeda nacional atinja."
+
+  concept_money_value_target_selection:0 "Paridade Metálica"
+  concept_money_value_target_selection_desc:0 "A Paridade Metálica é o valor em metal que você deseja que sua moeda nacional atinja."
+
+  concept_money_supply:0 "Oferta Monetária"
+  concept_money_supply_desc:0 "A Oferta Monetária representa a quantidade total da moeda nacional presente em seu mercado."
+
+  concept_central_bank_gold_reserve_ratio:0 "Taxa de Reserva Metálica do Banco Central"
+  concept_central_bank_gold_reserve_ratio_desc:0 "A Taxa de Reserva Metálica do Banco Central representa a porcentagem da oferta monetária de um país que é respaldada pelas reservas de metal do banco central. Esta taxa indica quanto da moeda circulante pode ser convertida em metal."
+
+  concept_money_value_target:0 "Taxa de Cobertura Metálica"
+  concept_money_value_target_desc:0 "A taxa de cobertura metálica representa o valor máximo da moeda nacional que você pode ou deve produzir para atingir a [concept_money_value_target_real]. Se sua [concept_money_supply] exceder sua [concept_money_value_target], a oferta monetária mensal será redefinida para 0, e você não poderá armazenar mais moeda. Além disso, uma penalidade de -1% por mês na produção monetária será aplicada ao seu banco central, até um máximo de -50%. Esta penalidade é aplicável apenas se 'sem política monetária' e 'revalorização' estiverem ativas; se você estiver em uma 'política de desvalorização', este limite não será considerado, e o valor da moeda tenderá a 0. Em geral, isso significa que você deseja manter o valor de sua moeda em um nível muito alto em relação ao que seu mercado permite."
+
+  concept_money_value_target_with_reference_currency_selection:0 "Paridade com a Moeda de Referência"
+  concept_money_value_target_with_reference_currency_selection_desc:0 "De Rien"
+
+  concept_inflation_value:0 "Valor da Inflação"
+  concept_inflation_value_desc:0 "Inflação/deflação é o resultado de vários parâmetros: Inflação natural anual, Preço de mercado, Valor da moeda, e Inflação decorrente da produção de sua moeda. Você pode influenciar a inflação/deflação agindo sobre esses diferentes parâmetros."
+
+  concept_national_capacity:0 "Capacidade Nacional"
+  concept_national_capacity_desc:0 "A Capacidade Nacional representa a quantidade total de ouro que o país possui. É determinada por vários fatores: o [concept_government_treasury], as [concept_central_bank_metal_reserves], e o [concept_gold_balance]."
+
+  concept_devaluation:0 "Desvalorização"
+  concept_devaluation_desc:0 "No século XIX, desvalorização era geralmente entendida como uma ação econômica consistindo em reduzir o valor oficial de uma moeda em relação a um benchmark, como outra moeda estrangeira ou um padrão monetário como ouro ou prata. Você pode desvalorizar sua moeda em 25%, 50%, 75% ou 100%. Isso significa que você aumenta sua capacidade atual de produção monetária nessa porcentagem. Ao mesmo tempo, sua inflação de produção monetária aumentará em +1, +2, +3 ou +4 em intervalos de 6 meses."
+
+  concept_revaluation:0 "Revalorização"
+  concept_revaluation_desc:0 "No século XIX, revalorização era a ação econômica oposta à desvalorização, e consistia em aumentar o valor oficial de uma moeda em relação a uma referência, como outra moeda estrangeira ou um padrão monetário como ouro ou prata. Você pode revalorizar sua moeda em 25%, 50%, 75% ou 100%. Isso significa que você diminui sua capacidade atual de produção monetária nessa porcentagem. Ao mesmo tempo, sua inflação de produção monetária diminuirá em -1, -2, -3 ou -4 em intervalos de 6 meses."
+
+  concept_subject_currency_management:0 "Gestão Monetária de Subordinados"
+  concept_subject_currency_management_desc:0 "A gestão monetária de subordinados permite ao jogador gerenciar a paridade entre sua moeda e a moeda de seus subordinados. Por padrão, a moeda do suserano vale 2 vezes a dos subordinados."
+
+  concept_parity:0 "Paridade"
+  concept_parity_desc:0 "No século XIX, o termo 'paridade' em economia monetária referia-se à razão oficial ou fixa entre duas moedas ou entre uma moeda e um padrão monetário como ouro ou prata. A paridade determinava o valor relativo de uma moeda em comparação com outra ou em comparação com uma referência comum."
+
+  concept_central_bank_metal_reserves:0 "Reservas Metálicas do Banco Central"
+  concept_central_bank_metal_reserves_desc:0 "As Reservas Metálicas do Banco Central são metais mantidos em seu [concept_central_bank]. Esses metais são a principal fonte de valor para a moeda do país. Esses metais estão posicionados no estado onde seu [concept_central_bank] está localizado; se este estado for anexado por um país inimigo, você perde esses metais. Esse ouro vem dos metais presentes em seu mercado que são estocados mensalmente; quanto mais ouro você tiver em seu mercado, mais metais você acumula nas Reservas Metálicas do Banco Central. Países subordinados não podem acumular metais."
+
+  concept_gold_balance:0 "Balança Comercial"
+  concept_gold_balance_desc:0 "Balança Comercial refere-se à situação em que um país mantém um saldo equilibrado em seu comércio com outras nações, em termos de entradas e saídas líquidas de ouro. Em um contexto onde um país estava no padrão-ouro ou onde a moeda era respaldada por ouro, essa balança comercial era crucial para manter a estabilidade de sua moeda e suas reservas de ouro."
+
+  concept_import_value:0 "Custo de Importação (em Ouro)"
+  concept_import_value_desc:0 "O custo de importação (em ouro) é a totalidade do que você compra no mercado externo. Você paga por esses bens em ouro e não com moeda nacional (a noção moderna de comprar bens estrangeiros em moeda nacional data dos anos 1970 e do fim do sistema de Bretton Woods)."
+
+  concept_export_value:0 "Lucro de Exportação (em Ouro)"
+  concept_export_value_desc:0 "O Lucro de Exportação (em ouro) é a totalidade do que você vende no mercado externo. Você vende esses bens em ouro e não com moeda nacional (a noção moderna de vender bens estrangeiros em moeda nacional data dos anos 1970 e do fim do sistema de Bretton Woods)."
+
+  concept_world_currency:0 "Moeda Mundial"
+  concept_world_currency_desc:0 "A lista de Moeda Mundial permite que você veja onde sua moeda nacional está localizada em relação às outras moedas mundiais."
+
+  concept_evolution_of_the_currency_value:0 "Evolução do Valor da Moeda"
+  concept_evolution_of_the_currency_value_desc:0 "A lista de Evolução do valor da moeda permite que você veja a evolução do valor das moedas mundiais ao longo de 1 ano, 5 anos e 10 anos. (Os valores podem parecer bugados, mas são necessários 5 anos e 10 anos de jogo para definir os valores corretamente)"
+
+  concept_exchange_rate:0 "Taxa de Câmbio"
+  concept_exchange_rate_desc:0 "No século XIX, as taxas de câmbio entre moedas eram geralmente determinadas por um sistema de taxa de câmbio fixa baseado no padrão-ouro. Isso significava que o valor das moedas nacionais era fixado em relação a uma quantidade específica de ouro. Os governos frequentemente precificavam suas moedas nacionais em ouro, garantindo assim sua conversibilidade."
+
+  concept_money_value_rapported_inflation:0 "Inflação Relatada ao Valor da Moeda"
+  concept_money_value_rapported_inflation_desc:0 "Inflação Relatada ao Valor da Moeda é o valor de sua moeda aumentando ou diminuindo devido à sua inflação/deflação. É um fator crucial na determinação do valor de sua moeda para taxas de câmbio."
+
+  concept_international_economic_power:0 "Poder Econômico Internacional"
+  concept_international_economic_power_desc:0 "O Poder Econômico Internacional é determinado pelo país que possui a maior capacidade nacional. Isso significa que é a moeda com a maior contrapartida, tornando-a extremamente sólida nos mercados globais. Este valor pode ser modificado com base no país que possui a maior capacidade nacional. (Cabe a você jogar!)"

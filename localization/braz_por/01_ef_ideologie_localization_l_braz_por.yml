@@ -1,0 +1,27 @@
+l_braz_por:
+
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+
+  #ideologie
+
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+
+  ideology_monetary_moderate: "Moderados Monetários"
+  ideology_monetary_conservative: "Conservadores Monetários"
+  ideology_monetary_left: "Populistas Monetários"
+
+
+  ideology_monetary_moderate_desc: "Defensores da gestão monetária pragmática, os Moderados Monetários apoiam políticas equilibradas que mantêm a estabilidade sem se comprometer com extremos rígidos. Favorecendo mecanismos de câmbio-ouro e razões alinhadas internacionalmente, eles defendem um sistema bimetálico flexível centrado em padrões amplamente aceitos, como a proporção de 15:1."
+
+  ideology_monetary_conservative_desc: "Firmes defensores dos princípios monetários ortodoxos, os Conservadores Monetários defendem moedas fortes e estáveis respaldadas por sólidas reservas metálicas. Eles favorecem o Padrão-Ouro ou razões dominantes em ouro, opondo-se a sistemas baseados em prata ou não regulamentados. Sua prioridade é a disciplina fiscal, cunhagem previsível e proteção contra riscos inflacionários."
+
+  ideology_monetary_left_desc: "Enraizados em interesses agrários e populares, os Populistas Monetários promovem políticas monetárias baseadas em prata e expansionárias destinadas a facilitar o crédito, apoiar devedores e estimular ampla atividade econômica. Eles favorecem altas razões de prata e se opõem a políticas restritivas de ouro, vendo a oferta flexível de dinheiro como essencial para o alívio social e econômico."
+
+ideology_monetary_policy: "Intervencionismo Monetário"
+ideology_monetary_policy_desc: "Este grupo acredita que a política monetária deve ser ativamente usada para direcionar a economia. Seja através de expansão monetária, contração, intervenção no mercado ou gestão cambial, o estado deve possuir amplos poderes para perseguir seus objetivos econômicos."

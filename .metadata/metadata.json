@@ -1,0 +1,17 @@
+{
+  "name": "Economic & Financial - Tradução PT-BR",
+  "id": "",
+  "version": "1.0",
+  "supported_game_version": "1.13.*",
+  "short_description": "Tradução completa para Português Brasileiro do mod Economic and Financial (E&F). Requer o mod original instalado.",
+  "tags": ["Translation", "Portuguese", "Localization"],
+  "relationships": [
+    {
+      "relation": "required",
+      "game_or_mod": "3143591632"
+    }
+  ],
+  "game_custom_data": {
+    "multiplayer_synchronized": true
+  }
+}

@@ -1,0 +1,300 @@
+l_braz_por:
+
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+
+  # ██╗      █████╗ ██╗    ██╗
+  # ██║     ██╔══██╗██║    ██║
+  # ██║     ███████║██║ █╗ ██║
+  # ██║     ██╔══██║██║███╗██║
+  # ███████╗██║  ██║╚███╔███╔╝
+  # ╚══════╝╚═╝  ╚═╝ ╚══╝╚══╝
+
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+
+  ################################
+  # Monetary Policy
+  ################################
+  lawgroup_monetary_policy: "Política Monetária"
+
+  law_no_monetary_policy: "Sem Política Monetária"
+  law_revaluation: "Revalorização"
+  law_devaluation: "Desvalorização"
+  law_large_monetary_policy: "Política Monetária Ampla"
+  law_war_economy: "Economia de Guerra"
+
+  # Desc :
+  law_no_monetary_policy_desc: "Nenhuma trajetória para a moeda nacional."
+  law_revaluation_desc: "Aumento no valor da moeda nacional em comparação com o ouro."
+  law_devaluation_desc: "Diminuição no valor da moeda nacional em comparação com o ouro."
+  law_large_monetary_policy_desc: "O banco central recebe ampla autoridade para intervir em assuntos monetários, permitindo expansão ou contração em larga escala da oferta monetária. Tais poderes permitem ao governo responder agressivamente a crises econômicas, estimular o crescimento, financiar gastos extraordinários ou estabilizar a moeda nacional quando necessário. Os GIs estão mais inclinados a decretar esta lei se a Taxa de Reserva Metálica do Banco Central cair abaixo de 75% ou subir acima de 125%."
+
+  law_war_economy_desc: "Leis que transformam a economia nacional em uma economia de guerra."
+
+  ################################
+  # Monetary Value Indexing
+  ################################
+  lawgroup_monetary_system: "Sistema Monetário"
+
+  law_no_monetary_system: "Sem Sistema Monetário"
+  law_fiat_standard: "Padrão Fiduciário"
+  law_silver_standard: "Padrão-Prata"
+  law_bimetallism_standard: "Padrão Bimetalista"
+  law_gold_standard: "Padrão-Ouro"
+  law_gold_exchange_standard: "Padrão Câmbio-Ouro"
+  law_floating_exchange_rates: "Taxas de Câmbio Flutuantes"
+
+  law_no_monetary_system_icon: "Padrão Fiduciário"
+  law_fiat_standard_icon: "@fiat_standard!"
+  law_silver_standard_icon: "@silver_standard!"
+  law_bimetallism_standard_icon: "@bimetallism_standard!"
+  law_gold_standard_icon: "@gold_standard!"
+  law_gold_exchange_standard_icon: "@gold_exchange_standard!"
+
+  # Desc :
+  law_no_monetary_system_desc: "Sem sistema monetário."
+  law_fiat_standard_desc: "Em um sistema monetário de padrão fiduciário, a moeda não é respaldada por quaisquer reservas de metais preciosos. Seu valor deriva exclusivamente da confiança pública e da autoridade do estado emissor. Este modelo depende da capacidade do estado de manter a estabilidade econômica e a confiança na moeda, permitindo flexibilidade nas políticas monetárias, mas também expondo o sistema a riscos de desvalorização se a confiança erodir. Ao contrário de sistemas baseados em ouro ou prata, a moeda fiduciária não garante conversibilidade em recursos físicos."
+
+  law_silver_standard_desc: "Em um sistema monetário de padrão-prata, a moeda é respaldada por reservas de prata, e seu valor está vinculado a uma quantidade específica deste metal precioso. O estado emissor compromete-se a garantir a conversibilidade da moeda em prata, proporcionando um grau de estabilidade ao valor monetário. No entanto, este sistema pode limitar a flexibilidade das políticas monetárias, já que a oferta monetária é diretamente influenciada pelas reservas de prata disponíveis."
+
+  law_bimetallism_standard_desc: "Em um sistema monetário baseado no bimetalismo, tanto ouro quanto prata são usados para apoiar o valor da moeda. O estado emissor garante a conversibilidade da moeda nesses dois metais a uma razão fixa, promovendo estabilidade ao diversificar a reserva de valor. No entanto, o bimetalismo pode ser vulnerável a flutuações nos preços relativos do ouro e da prata, o que pode levar a desequilíbrios monetários e complicar a gestão da política econômica."
+
+  law_gold_standard_desc: "O Padrão-Ouro é um sistema monetário no qual o valor da moeda de um país está diretamente vinculado a uma quantidade específica de ouro. Em tal sistema, as unidades monetárias podem ser convertidas em uma quantidade fixa de ouro, e vice-versa. O Padrão-Ouro foi historicamente usado para ancorar a estabilidade da moeda e garantir confiança no valor do dinheiro. No entanto, foi amplamente abandonado no século XX em favor de sistemas monetários mais flexíveis."
+  law_gold_exchange_standard_desc: "O Padrão Câmbio-Ouro foi um sistema monetário que surgiu como uma variação do Padrão-Ouro. Operou durante o período entre guerras, particularmente após a Primeira Guerra Mundial e antes da adoção do sistema de Bretton Woods. No Padrão Câmbio-Ouro, os países mantinham suas reservas não apenas em ouro, mas também em moedas estrangeiras, principalmente o dólar americano, que era conversível em ouro. Isso permitiu maior flexibilidade no comércio e finanças internacionais, já que os países podiam manter reservas em uma mistura de ouro e principais moedas estrangeiras. No entanto, o sistema enfrentou desafios, incluindo a escassez de ouro, levando a ajustes e, finalmente, abrindo caminho para o sistema de Bretton Woods na era pós-Segunda Guerra Mundial."
+  law_floating_exchange_rates_desc: "O sistema de Taxas de Câmbio Flutuantes é um arranjo monetário onde os valores das moedas são determinados pelas forças de oferta e demanda nos mercados de câmbio. Ao contrário dos sistemas de taxa de câmbio fixa, onde governos ou bancos centrais estabelecem o valor de sua moeda em relação a outra, as taxas de câmbio flutuantes permitem que os valores das moedas flutuem livremente com base nas condições do mercado"
+
+  ################################
+  # Sovereign Money
+  ################################
+  lawgroup_currency_type: "Moeda Soberana"
+
+  # Currency :
+  law_no_market_liquidity: "Sem Liquidez de Mercado"
+
+  # Dinar
+  law_dinar_currency: "Dinar"
+  law_dinar_algerian_dinar_currency: "Dinar Argelino"
+  law_dinar_iraqi_dinar_currency: "Dinar Iraquiano"
+  law_dinar_libyan_dinar_currency: "Dinar Líbio"
+  law_dinar_moroccan_dirham_currency: "Dirham Marroquino"
+  law_dinar_omanian_rial_currency: "Rial Omanense"
+  law_dinar_qiran_currency: "Qiran"
+  law_dinar_saudi_riyal_currency: "Riyal Saudita"
+  law_dinar_serbian_dinar_currency: "Dinar Sérvio"
+  law_dinar_tunisian_dinar_currency: "Dinar Tunisiano"
+  law_dinar_yugoslav_dinar_currency: "Dinar Iugoslavo"
+
+  # Dollar
+  law_dollar_australian_dollar_currency: "Dólar Australiano"
+  law_dollar_canadian_dollar_currency: "Dólar Canadense"
+  law_dollar_caribbean_dollar_currency: "Dólar Caribenho"
+  law_dollar_confederate_states_dollar_currency: "Dólar dos Estados Confederados"
+  law_dollar_liberian_dollar_currency: "Dólar Liberiano"
+  law_dollar_new_zealand_dollar_currency: "Dólar Neozelandês"
+  law_dollar_sierra_leonean_dollar_currency: "Dólar de Serra Leoa"
+  law_dollar_united_states_dollar_currency: "Dólar Americano"
+
+  # Eco
+  law_eco_ariary_currency: "Ariary"
+  law_eco_central_african_eco_currency: "Eco da África Central"
+  law_eco_east_african_eco_currency: "Eco da África Oriental"
+  law_eco_ethiopian_birr_currency: "Birr Etíope"
+  law_eco_ghanaian_pound_currency: "Libra Ganesa"
+  law_eco_nigerian_naira_currency: "Naira Nigeriana"
+  law_eco_south_african_rand_currency: "Rand Sul-Africano"
+  law_eco_tuareg_ouguiya_currency: "Ouguiya Tuaregue"
+  law_eco_west_african_eco_currency: "Eco da África Ocidental"
+
+  # Franc
+  law_franc_belgian_franc_currency: "Franco Belga"
+  law_franc_french_franc_currency: "Franco Francês"
+  law_franc_luxembourgish_franc_currency: "Franco Luxemburguês"
+  law_franc_swiss_franc_currency: "Franco Suíço"
+
+  # Gulden
+  law_gulden_currency: "Gulden"
+  law_gulden_bavarian_gulden_currency: "Gulden Bávaro"
+  law_gulden_florin_currency: "Florim"
+  law_gulden_hungarian_forint_currency: "Forint Húngaro"
+  law_gulden_indies_guilder_currency: "Florim das Índias"
+  law_gulden_south_german_gulden_currency: "Gulden da Alemanha do Sul"
+
+  # Krone
+  law_krone_czech_koruna_currency: "Coroa Tcheca"
+  law_krone_danish_krone_currency: "Coroa Dinamarquesa"
+  law_krone_estonian_kroon_currency: "Coroa Estoniana"
+  law_krone_icelandic_krona_currency: "Coroa Islandesa"
+  law_krone_norwegian_krone_currency: "Coroa Norueguesa"
+  law_krone_slovak_koruna_currency: "Coroa Eslovaca"
+  law_krone_swedish_krona_currency: "Coroa Sueca"
+
+  # Leon
+  law_leon_leu_currency: "Leu"
+  law_leon_lev_currency: "Lev"
+
+  # Lira
+  law_lira_currency: "Lira"
+  law_lira_ducato_currency: "Ducato"
+  law_lira_ottoman_lira_currency: "Lira Otomana"
+  law_lira_scudo_pontificio_currency: "Scudo Pontificio"
+  law_lira_scudo_sardo_currency: "Scudo Sardo"
+  law_lira_toscane_lira_currency: "Lira Toscana"
+
+  # Mark
+  law_mark_currency: "Marco"
+  law_mark_finnish_markka_currency: "Markka Finlandês"
+
+  # Peso
+  law_peso_currency: "Peso"
+  law_peso_argentine_peso_currency: "Peso Argentino"
+  law_peso_bolivien_peso_currency: "Peso Boliviano"
+  law_peso_chilean_peso_currency: "Peso Chileno"
+  law_peso_colombian_peso_currency: "Peso Colombiano"
+  law_peso_costa_rican_colon_currency: "Colón Costarriquenho"
+  law_peso_cuban_peso_currency: "Peso Cubano"
+  law_peso_ecuadorian_peso_currency: "Peso Equatoriano"
+  law_peso_el_salvador_colon_currency: "Colón Salvadorenho"
+  law_peso_guatemalan_quetzal_currency: "Quetzal Guatemalteco"
+  law_peso_honduran_lempira_currency: "Lempira Hondurenho"
+  law_peso_mexican_peso_currency: "Peso Mexicano"
+  law_peso_nicaraguan_cordoba_currency: "Córdoba Nicaraguense"
+  law_peso_paraguayan_peso_currency: "Peso Paraguaio"
+  law_peso_philippine_peso_currency: "Peso Filipino"
+  law_peso_sol_de_oro_currency: "Sol de Oro"
+  law_peso_uruguayan_peso_currency: "Peso Uruguaio"
+  law_peso_venezuelan_peso_currency: "Peso Venezuelano"
+
+  # Pound
+  law_pound_egyptian_pound_currency: "Libra Egípcia"
+  law_pound_irish_pound_currency: "Libra Irlandesa"
+  law_pound_sterling_currency: "Libra Esterlina"
+
+  # Real
+  law_real_currency: "Real"
+  law_real_brazilian_real_currency: "Real Brasileiro"
+
+  # Rupee
+  law_rupee_indian_rupee_currency: "Rúpia Indiana"
+  law_rupee_indonesian_rupiah_currency: "Rupia Indonésia"
+
+  # Special
+  law_spe_baht_currency: "Baht"
+  law_spe_dong_currency: "Dong"
+  law_spe_drachma_currency: "Dracma"
+  law_spe_korean_won_currency: "Won Coreano"
+  law_spe_latvian_lats_currency: "Lats Letão"
+  law_spe_lithuanian_litas_currency: "Litas Lituano"
+  law_spe_peseta_currency: "Peseta"
+  law_spe_ruble_currency: "Rublo"
+  law_spe_uni_currency: "Uni"
+  law_spe_yen_currency: "Iene"
+  law_spe_yuan_currency: "Yuan"
+  law_spe_zloti_currency: "Zloty"
+
+  # Thaler
+  law_thaler_hannoveraner_thaler_currency: "Thaler de Hanôver"
+  law_thaler_prussian_thaler_currency: "Thaler Prussiano"
+  law_thaler_saxon_thaler_currency: "Thaler Saxão"
+
+  # Desc :
+  law_no_market_liquidity_desc: "Você não possui uma moeda nacional."
+  law_dinar_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_dinar_algerian_dinar_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_dinar_iraqi_dinar_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_dinar_libyan_dinar_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_dinar_moroccan_dirham_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_dinar_omanian_rial_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_dinar_qiran_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_dinar_saudi_riyal_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_dinar_serbian_dinar_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_dinar_tunisian_dinar_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_dinar_yugoslav_dinar_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_dollar_australian_dollar_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_dollar_canadian_dollar_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_dollar_caribbean_dollar_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_dollar_confederate_states_dollar_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_dollar_liberian_dollar_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_dollar_new_zealand_dollar_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_dollar_sierra_leonean_dollar_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_dollar_united_states_dollar_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_eco_ariary_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_eco_central_african_eco_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_eco_east_african_eco_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_eco_ethiopian_birr_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_eco_ghanaian_pound_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_eco_nigerian_naira_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_eco_south_african_rand_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_eco_tuareg_ouguiya_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_eco_west_african_eco_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_franc_belgian_franc_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_franc_french_franc_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_franc_luxembourgish_franc_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_franc_swiss_franc_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_gulden_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_gulden_bavarian_gulden_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_gulden_florin_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_gulden_hungarian_forint_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_gulden_indies_guilder_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_gulden_south_german_gulden_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_krone_czech_koruna_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_krone_danish_krone_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_krone_estonian_kroon_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_krone_icelandic_krona_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_krone_norwegian_krone_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_krone_slovak_koruna_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_krone_swedish_krona_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_leon_leu_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_leon_lev_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_lira_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_lira_ducato_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_lira_ottoman_lira_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_lira_scudo_pontificio_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_lira_scudo_sardo_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_lira_toscane_lira_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_mark_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_mark_finnish_markka_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_peso_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_peso_argentine_peso_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_peso_bolivien_peso_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_peso_chilean_peso_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_peso_colombian_peso_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_peso_costa_rican_colon_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_peso_cuban_peso_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_peso_ecuadorian_peso_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_peso_el_salvador_colon_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_peso_guatemalan_quetzal_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_peso_honduran_lempira_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_peso_mexican_peso_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_peso_nicaraguan_cordoba_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_peso_paraguayan_peso_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_peso_philippine_peso_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_peso_sol_de_oro_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_peso_uruguayan_peso_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_peso_venezuelan_peso_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_pound_egyptian_pound_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_pound_irish_pound_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_pound_sterling_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_real_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_real_brazilian_real_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_rupee_indian_rupee_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_rupee_indonesian_rupiah_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_spe_baht_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_spe_dong_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_spe_drachma_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_spe_korean_won_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_spe_latvian_lats_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_spe_lithuanian_litas_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_spe_peseta_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_spe_ruble_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_spe_uni_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_spe_yen_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_spe_yuan_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_spe_zloti_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_thaler_hannoveraner_thaler_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_thaler_prussian_thaler_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
+  law_thaler_saxon_thaler_currency_desc: "Um estado poderoso precisa de uma moeda poderosa."
