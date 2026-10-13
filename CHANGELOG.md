@@ -1,63 +1,106 @@
-# Economic & Financial - Tradução PT-BR
+# Changelog
 
-## 📊 Status da Tradução
+Todas as mudanças notáveis neste projeto serão documentadas neste arquivo.
 
-### ✅ Arquivos Traduzidos (11 arquivos principais)
+O formato é baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/),
+e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 
-1. **00_ef_amandement_localization_l_braz_por.yml** - Emendas monetárias bimetálicas
-2. **01_ef_building_localization_l_braz_por.yml** - Edifícios (Bancos Centrais, Centros Financeiros)
-3. **01_ef_company_localization_l_braz_por.yml** - Nomes de empresas e bancos históricos
-4. **01_ef_concept_localization_l_braz_por.yml** - Conceitos econômicos e financeiros
-5. **01_ef_currency_name_localization_l_braz_por.yml** - Nomes de moedas
-6. **01_ef_goods_localization_l_braz_por.yml** - Produtos financeiros e moedas
-7. **01_ef_ideologie_localization_l_braz_por.yml** - Ideologias monetárias
-8. **01_ef_law_localization_l_braz_por.yml** - Leis monetárias e sistemas cambiais
-9. **01_ef_prestige_goods_localization_l_braz_por.yml** - Bens de prestígio
-10. **01_ef_production_method_localization_l_braz_por.yml** - Métodos de produção
-11. **01_ef_technology_localization_l_braz_por.yml** - Tecnologias monetárias
+## [1.0.0] - 2026-10-13
 
-### 📝 Conteúdo Traduzido
+### Adicionado
+- 🎉 Lançamento inicial da tradução completa para PT-BR
+- ✅ Tradução de 18 arquivos de localização:
+  - `00_ef_amandement_localization_l_braz_por.yml` - Emendas monetárias
+  - `00_ef_gui_localization_l_braz_por.yml` - Interface completa (1.7 MB)
+  - `01_ef_building_localization_l_braz_por.yml` - Edifícios
+  - `01_ef_company_localization_l_braz_por.yml` - 150+ empresas e bancos
+  - `01_ef_concept_localization_l_braz_por.yml` - Conceitos econômicos
+  - `01_ef_currency_name_localization_l_braz_por.yml` - 60+ moedas mundiais
+  - `01_ef_event_localization_l_braz_por.yml` - Eventos econômicos
+  - `01_ef_goods_localization_l_braz_por.yml` - Produtos financeiros
+  - `01_ef_ideologie_localization_l_braz_por.yml` - Ideologias
+  - `01_ef_je_localization_l_braz_por.yml` - Journal Entries
+  - `01_ef_law_localization_l_braz_por.yml` - 150+ leis monetárias
+  - `01_ef_modifier_type_localization_l_braz_por.yml` - Tipos de modificadores
+  - `01_ef_notification_localization_l_braz_por.yml` - Notificações
+  - `01_ef_prestige_goods_localization_l_braz_por.yml` - Bens de prestígio
+  - `01_ef_production_method_localization_l_braz_por.yml` - Métodos de produção
+  - `01_ef_static_modifier_localization_l_braz_por.yml` - Modificadores principais
+  - `01_ef_technology_localization_l_braz_por.yml` - Tecnologias
+  - `01_ef_tooltips_localization_l_braz_por.yml` - Tooltips detalhados
 
-- ✅ **Sistemas Monetários**: Padrão-Ouro, Padrão-Prata, Bimetalismo, Câmbio Flutuante
-- ✅ **Políticas Monetárias**: Desvalorização, Revalorização, Economia de Guerra
-- ✅ **Conceitos Econômicos**: Oferta Monetária, Paridade, Inflação, Taxa de Câmbio
-- ✅ **Edifícios**: Banco Central, Centro Financeiro, Estoque Nacional
-- ✅ **Moedas**: 60+ moedas históricas de todos os continentes
-- ✅ **Empresas**: 150+ bancos e empresas históricas
-- ✅ **Tecnologias**: Padrão Metálico, Ferramentas de Política Monetária
+### Traduzido
+- 🏛️ **Interface Completa**:
+  - Menus: Economia, Finanças, Estoque
+  - Painéis: Painel de Estoque, Painel Global
+  - Indicadores: Valor da Moeda, Taxa de Inflação, Oferta Monetária
+  
+- 💰 **Sistema Monetário**:
+  - Padrão-ouro (Gold Standard)
+  - Padrão-prata (Silver Standard)
+  - Padrão bimetálico (Bimetallism)
+  - Padrão câmbio-ouro (Gold Exchange Standard)
+  - Padrão fiduciário (Fiat Standard)
 
-### ⏳ Arquivos Pendentes (opcionais)
+- 🏦 **Sistema Bancário**:
+  - Banco Central (Central Bank)
+  - Bancos Privados (Private Banks)
+  - Reservas de Metais (Metal Reserves)
+  - Garantias de Ouro (Gold Collateral)
+  - Fundos Bancários (Bank Funds)
 
-Os seguintes arquivos podem ser traduzidos futuramente para completar 100%:
-- `01_ef_event_localization_l_braz_por.yml` - Eventos históricos (76KB)
-- `01_ef_je_localization_l_braz_por.yml` - Journal Entries (64KB)
-- `01_ef_modifier_type_localization_l_braz_por.yml` - Tipos de modificadores (105KB)
-- `01_ef_notification_localization_l_braz_por.yml` - Notificações (101KB)
-- `01_ef_static_modifier_localization_l_braz_por.yml` - Modificadores estáticos (29KB)
-- `01_ef_tooltips_localization_l_braz_por.yml` - Tooltips (128KB)
-- `00_ef_gui_localization_l_braz_por.yml` - Interface gráfica (1.7MB)
+- 📊 **Indicadores Econômicos**:
+  - Inflação e Deflação
+  - Valor da Moeda
+  - Oferta Monetária
+  - Capacidade Nacional
+  - Balanço de Pagamentos
+  - PIB e Crescimento
 
-## 🎯 Como Usar
+- 📈 **Mercado Financeiro**:
+  - Índice do Mercado de Ações
+  - Capitalização do Mercado
+  - Produtos Financeiros
+  - Títulos do Tesouro
+  - Bolsas de Valores
 
-1. Certifique-se de ter o **Economic and Financial Mod (E&F) - V4** instalado
-2. Copie a pasta `Economic&Financial PT-BR` para sua pasta de mods do Victoria 3:
-   - Windows: `%USERPROFILE%\Documents\Paradox Interactive\Victoria 3\mod\`
-   - Linux: `~/.local/share/Paradox Interactive/Victoria 3/mod/`
-3. Ative ambos os mods no launcher do Victoria 3
-4. **Importante**: O mod de tradução deve carregar DEPOIS do mod original
+- 💵 **Moedas Traduzidas**:
+  - Real Brasileiro (R$)
+  - Dólar Americano (US$)
+  - Franco Francês (FF)
+  - Libra Esterlina (£)
+  - Marco Alemão (DM)
+  - E mais 55 moedas mundiais
 
-## 📈 Cobertura
+- ⚖️ **Leis e Políticas**:
+  - 150+ leis monetárias
+  - Políticas econômicas
+  - Tratados monetários
+  - União Monetária Latina
+  - União Monetária Escandinava
 
-- **Jogabilidade essencial**: 95% traduzido
-- **Interface e tooltips**: Parcialmente traduzido
-- **Eventos narrativos**: Não traduzido (opcional)
+- 🏢 **Empresas e Instituições**:
+  - 150+ empresas financeiras
+  - Bancos centrais nacionais
+  - Bancos privados
+  - Bolsas de valores
+  - Centros financeiros
 
-## 🔄 Compatibilidade
+### Técnico
+- ✅ Codificação UTF-8 com BOM em todos os arquivos
+- ✅ Compatibilidade com caracteres especiais portugueses (ç, ã, õ, etc.)
+- ✅ Metadata.json configurado com dependência do mod original
+- ✅ Ordem de carregamento correta (load_after do mod original)
+- ✅ Todos os ícones e texturas preservados
 
-- Mod original: Economic and Financial Mod (E&F) - V4 (ID: 3143591632)
-- Victoria 3: 1.13.*
-- Modo multiplayer: Sincronizado
+### Corrigido
+- 🐛 Texto "COUNTRY_CURRENC..." → "Moeda do Estado"
+- 🐛 "Money Value" → "Valor da Moeda"
+- 🐛 "Inflation and Deflation" → "Inflação e Deflação"
+- 🐛 "Stock market index" → "Índice do mercado de ações"
+- 🐛 "Foreign Gold Collateral" → "Garantia de Ouro Estrangeiro"
+- 🐛 Centenas de outros termos em inglês
 
-## 📅 Histórico
-
-- **v1.0** (2026-10-13): Lançamento inicial com tradução dos elementos principais do jogo
+## Links
+- [Mod Original](https://steamcommunity.com/sharedfiles/filedetails/?id=3143591632)
+- [Victoria 3 na Steam](https://store.steampowered.com/app/529340/Victoria_3/)

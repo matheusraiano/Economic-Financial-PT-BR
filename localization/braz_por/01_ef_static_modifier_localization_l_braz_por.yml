@@ -1,0 +1,182 @@
+﻿l_braz_por:
+
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+
+  # ███╗   ███╗ ██████╗ ██████╗ ██╗███████╗██╗███████╗██████╗ ███████╗
+  # ████╗ ████║██╔═══██╗██╔══██╗██║██╔════╝██║██╔════╝██╔══██╗██╔════╝
+  # ██╔████╔██║██║   ██║██║  ██║██║█████╗  ██║█████╗  ██████╔╝███████╗
+  # ██║╚██╔╝██║██║   ██║██║  ██║██║██╔══╝  ██║██╔══╝  ██╔══██╗╚════██║
+  # ██║ ╚═╝ ██║╚██████╔╝██████╔╝██║██║     ██║███████╗██║  ██║███████║
+  # ╚═╝     ╚═╝ ╚═════╝ ╚═════╝ ╚═╝╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝
+  #modifier_part
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+  #####################################################################################################################
+
+  modifier_desactive_building:0 "Estado Ocupado"
+  silver_mine_max_level:0 "Nível Máximo da Mina de Prata"
+
+  country_credit_note_mult:0 "Multiplicador de Nota de Crédito do País"
+  country_credit_note_add:0 "Adição de Nota de Crédito do País"
+  country_credit_note_add_desc:0 "Aumento na Classificação Geral do País de +0,5 por nível de instituição"
+  country_credit_note_mult_desc:0 "Aumento na Classificação Geral do País de 5% por nível de instituição"
+  financial_product_by_trade_route_mult:0 "Produto Financeiro por Rota Comercial"
+  financial_product_by_trade_route_mult_desc:0 "Representa a proporção total de um tipo específico de produto financeiro que pode ser incluído na ordem de venda através de importações"
+
+  rise_base_rate:0 "Aumento na Taxa Base"
+  down_base_rate:0 "Redução na Taxa Base"
+
+  devaluation_currency_target:0 "Desvalorização do Valor Monetário Alvo"
+  revaluation_currency_target:0 "Revalorização do Valor Monetário Alvo"
+
+  currency_demande:0 "Demanda de Moeda"
+
+  ################################
+  #building:
+  ################################
+
+  building_silver_mine_throughput_add:0 "$building_silver_mine$ [concept_throughput] do edifício"
+
+  modifier_desactive_bank:0 "Banco está desativado"
+  leading_currency_type:0 "Tipo de Moeda Líder"
+
+  devaluation_currency_25:0 "Desvalorização 25%"
+  devaluation_currency_50:0 "Desvalorização 50%"
+  devaluation_currency_75:0 "Desvalorização 75%"
+  devaluation_currency_100:0 "Desvalorização 100%"
+
+  revaluation_currency_25:0 "Revalorização 25%"
+  revaluation_currency_50:0 "Revalorização 50%"
+  revaluation_currency_75:0 "Revalorização 75%"
+  revaluation_currency_100:0 "Revalorização 100%"
+
+  devaluation_currency_25_small:0 "@devaluation_txt! 25%"
+  devaluation_currency_50_small:0 "@devaluation_txt! 50%"
+  devaluation_currency_75_small:0 "@devaluation_txt! 75%"
+  devaluation_currency_100_small:0 "@devaluation_txt! 100%"
+
+  revaluation_currency_25_small:0 "@revaluation_txt! 25%"
+  revaluation_currency_50_small:0 "@revaluation_txt! 50%"
+  revaluation_currency_75_small:0 "@revaluation_txt! 75%"
+  revaluation_currency_100_small:0 "@revaluation_txt! 100%"
+
+  customs_union_limit_20:0 "Limite de União Aduaneira 20%"
+  protectora_limit_30:0 "Limite de Protetorado 30%"
+  dominion_limit_50:0 "Limite de Domínio 75%"
+  other_subject_type_limit_50:0 "Limite de Outro Tipo de Subordinado 50%"
+  puppet_limit_75:0 "Limite de Estado Fantoche 75%"
+
+  mutual_fund_supply:0 "Oferta de Fundo Mútuo"
+  bond_deemande:0 "Demanda de Títulos"
+  manufacture_stock_deemande:0 "Demanda de Ações Industriais"
+  agricultural_stock_deemande:0 "Demanda de Ações Agrícolas"
+  mining_stock_deemande:0 "Demanda de Ações Mineradoras"
+  railroad_stock_deemande:0 "Demanda de Ações Ferroviárias"
+
+  goods_input_railroad_stock_mult:0 "Multiplicador de Ações Ferroviárias"
+  goods_input_mining_stock_mult:0 "Multiplicador de Ações Mineradoras"
+  goods_input_agricultural_stock_mult:0 "Multiplicador de Ações Agrícolas"
+  goods_input_bond_mult:0 "Multiplicador de Títulos"
+  goods_input_manufacture_stock_mult:0 "Multiplicador de Ações Industriais"
+  goods_output_mutual_funds_mult:0 "Multiplicador de Fundos Mútuos"
+
+  state_building_financial_centre_max_level_add:0 "Nível Máximo do Centro Financeiro"
+  state_building_financial_centre_max_level_add_desc:0 "Nível Máximo do Centro Financeiro"
+
+  ################################
+  #country:
+  ################################
+
+  inflation_country:0 "Inflação"
+  deflation_country:0 "Deflação"
+
+  reference_currency:0 "Moeda de Referência"
+  reference_currency_no:0 "Moeda de Referência"
+
+  central_bank_bankruptcy_country:0 "Falência do Banco Central"
+  currency_crisis_country:0 "Crise Cambial"
+  economic_crisis_country:0 "Crise Econômica"
+  financial_crash_country:0 "Colapso Financeiro"
+  economic_instability:0 "Instabilidade Econômica"
+
+  weak_currency:0 "Moeda Fraca"
+  balanced_currency:0 "Moeda Equilibrada"
+  strong_currency:0 "Moeda Forte"
+  extreme_weak_currency:0 "Moeda Extremamente Fraca"
+
+  money_value_in_gold:0 "Valor da moeda (em #gold Ouro @gold!#!)"
+  compare_to_the_average:0 "Comparar com a Média"
+  money_value_median:0 "Valor Médio da Moeda"
+  modifier_currency_value:0 "Força da Moeda"
+
+  1_25_median:0 "(> 1,25 Média)"
+  0_75_median:0 "(< 0,75 Média)"
+
+  modifier_on_import_trade_route:0 "Modificador em rotas comerciais de importação"
+  modifier_on_import_trade_route_desc:0 "[GetPlayer.MakeScope.ScriptValue('difference_with_average_gold_exchange_rate_currencies_revers')|%|+=] vantagem de importação"
+  modifier_on_export_trade_route:0 "Modificador em rotas comerciais de exportação"
+  modifier_on_export_trade_route_desc:0 "[GetPlayer.MakeScope.ScriptValue('difference_with_average_gold_exchange_rate_currencies_revers_normalized')|%|=+] vantagem de exportação"
+
+  economic_instability_txt:0 "O contador de instabilidade econômica incrementa em 1 para cada crise que ocorre. Se atingir 2 ou mais, dispara todas as crises que registraram um ou mais incidentes."
+
+  economic_instability:0 "Contagem de Instabilidade Econômica"
+  country_bankruptcy:0 "Falência do País"
+  central_bank_bankruptcy:0 "Falência do Banco Central"
+  currency_crisis:0 "Crise Cambial"
+  disabled_trade_routes:0 "Rotas Comerciais Desabilitadas"
+
+  current_status:0 "Status Atual"
+  current_crisis:0 "Crise Atual"
+  nothing_status:0 "Nenhum Modificador Principal Atual"
+  nothing_crisis:0 "Nenhuma Crise Atualmente"
+
+  foreign_exchange_controls:0 "Controles de Câmbio Estrangeiro"
+  monetary_systeme_transition:0 "Mudança de Padrão Monetário"
+  new_currency:0 "Introdução de Nova Moeda"
+
+  global_monetary_reference:0 "Referência Monetária Global"
+  global_financial_power:0 "Poder Financeiro Global"
+
+  insufficient_currency_production:0 "Produção Insuficiente de Moeda"
+
+  has_financial_center:0 "Possui Centro Financeiro"
+  has_central_bank:0 "Possui Banco Central"
+  has_national_stockpile:0 "Possui Estoque Nacional"
+
+  country_credit_rating_AAA:0 "Classificação de Crédito AAA"
+  country_credit_rating_AA:0 "Classificação de Crédito AA"
+  country_credit_rating_A:0 "Classificação de Crédito A"
+  country_credit_rating_BBB:0 "Classificação de Crédito BBB"
+  country_credit_rating_BB:0 "Classificação de Crédito BB"
+  country_credit_rating_B:0 "Classificação de Crédito B"
+  country_credit_rating_CCC:0 "Classificação de Crédito CCC"
+  country_credit_rating_CC:0 "Classificação de Crédito CC"
+  country_credit_rating_C:0 "Classificação de Crédito C"
+  country_credit_rating_D:0 "Classificação de Crédito D"
+
+  interest_at_the_central_bank:0 "Juros no Banco Central"
+  interest_from_foreign_debt_investment:0 "Juros de Investimento em Dívida Estrangeira"
+
+  ################################
+  #state:
+  ################################
+
+  central_bank_place:0 "Localização do Banco Central"
+  central_bank_historic_place:0 "Localização Histórica do Banco Central"
+
+  financial_center_place:0 "Localização do Centro Financeiro"
+  financial_center_historic_place:0 "Localização Histórica do Centro Financeiro"
+  financial_center_place_spe:0 "Localização Especial do Centro Financeiro"
+
+  national_stockpile_place:0 "Localização do Estoque Nacional"
+  national_stockpile_historic_place:0 "Localização Histórica do Estoque Nacional"
+
+  ################################
+  #building:
+  ################################
+  economic_crisis:0 "Crise Econômica"
+  financial_crash:0 "Colapso Financeiro"
