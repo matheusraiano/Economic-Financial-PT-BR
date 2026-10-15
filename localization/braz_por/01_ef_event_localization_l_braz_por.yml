@@ -1,91 +1,91 @@
-﻿l_braz_por: 
-  player_economic_and_financial_mod_notification_group:0 "(E&F) System Notifications" #inforamation general
- 
-  00_ef_economic_event.1.t:0 "New Banco Central and National Currency in [SCOPE.sC('target_country').GetName]" 
-  00_ef_economic_event.1.d:1 "The government of [SCOPE.sC('target_country').GetName] has formally announced the establishment of a modern Banco Central and the introduction of a new national currency: the [SCOPE.sC('target_country').GetCustom('currency_name')]#! [SCOPE.sC('target_country').GetCustom('currency_symbol')]." 
-  00_ef_economic_event.1.f:1 "Today marks a decisive step in A financeira development of [SCOPE.sC('target_country').GetName]. The government has created a modern Banco Central intended to unify the nation’s monetary policy and stabilize internal exchanges.\n\nThis new institution is accompanied by the introduction of a national currency, the [SCOPE.sC('target_country').GetCustom('currency_name')]#! [SCOPE.sC('target_country').GetCustom('currency_symbol')], which will replace the remaining local or regional systems still em circulação.\n\nThe authorities expect this reform to strengthen the country's financial credibility and facilitate commercial relations with foreign powers." 
-  00_ef_economic_event.1.a:0 "Wish them stability"
- 
+﻿l_braz_por:
+  player_economic_and_financial_mod_notification_group:0 "(E&F) Notificações do Sistema" #inforamation general
+
+  00_ef_economic_event.1.t:0 "Novo Banco Central e Moeda Nacional em [SCOPE.sC(‘target_country’).GetName]"
+  00_ef_economic_event.1.d:1 "O governo de [SCOPE.sC(‘target_country’).GetName] anunciou formalmente o estabelecimento de um Banco Central moderno e a introdução de uma nova moeda nacional: o [SCOPE.sC(‘target_country’).GetCustom(‘currency_name’)]#! [SCOPE.sC(‘target_country’).GetCustom(‘currency_symbol’)]."
+  00_ef_economic_event.1.f:1 "Hoje marca um passo decisivo no desenvolvimento financeiro de [SCOPE.sC(‘target_country’).GetName]. O governo criou um Banco Central moderno destinado a unificar a política monetária da nação e estabilizar as trocas internas.\n\nEsta nova instituição é acompanhada pela introdução de uma moeda nacional, o [SCOPE.sC(‘target_country’).GetCustom(‘currency_name’)]#! [SCOPE.sC(‘target_country’).GetCustom(‘currency_symbol’)], que substituirá os sistemas locais ou regionais restantes ainda em circulação.\n\nAs autoridades esperam que esta reforma fortaleça a credibilidade financeira do país e facilite as relações comerciais com potências estrangeiras."
+  00_ef_economic_event.1.a:0 "Desejar estabilidade"
+
   #00_ef_economic_event.2
-  00_ef_economic_event.2.t:0 "Monetary Standard Reform in [SCOPE.sC('target_country').GetName]"
-  00_ef_economic_event.2.d:1 "Adoption of a New Monetary Standard"
-  00_ef_economic_event.2.f:1 "The authorities of [SCOPE.sC('target_country').GetName] announce the abandonment of the old system based on [OLD_STANDARD] in favor of a new monetary standard, the [NEW_STANDARD].\n\nThis transition aims to strengthen financial stability, increase investor confidence, and align the country with the most common international monetary practices.\n\nThis reform marks a major step in the consolidation of public credit and the modern organization of the national currency."
-  00_ef_economic_event.2.a:0 "Support the transition"
- 
+  00_ef_economic_event.2.t:0 "Reforma do Padrão Monetário em [SCOPE.sC(‘target_country’).GetName]"
+  00_ef_economic_event.2.d:1 "Adoção de um Novo Padrão Monetário"
+  00_ef_economic_event.2.f:1 "As autoridades de [SCOPE.sC(‘target_country’).GetName] anunciam o abandono do sistema antigo baseado em [OLD_STANDARD] em favor de um novo padrão monetário, o [NEW_STANDARD].\n\nEsta transição visa fortalecer a estabilidade financeira, aumentar a confiança dos investidores, e alinhar o país com as práticas monetárias internacionais mais comuns.\n\nEsta reforma marca um passo importante na consolidação do crédito público e na organização moderna da moeda nacional."
+  00_ef_economic_event.2.a:0 "Apoiar a transição"
+
   #00_ef_economic_event.5
-  00_ef_economic_event.5.t:0 "Monetary Unification in [SCOPE.sC('target_country').GetName]"
-  00_ef_economic_event.5.d:1 "Harmonisation of Regional Currencies"
-  00_ef_economic_event.5.f:1 "The government of the North German Confederation announces the establishment of a unified monetary system centered on the #B [SCOPE.sC('target_country').GetCustom('currency_name')] [SCOPE.sC('target_country').GetCustom('currency_symbol')]#!. This reform marks the end of numerous regional currencies still circulating among the member states and introduces a single, standardized medium of exchange.\n\nThe measure involves the #b demonetization#! of local coinage and the adoption of common rules for minting, weight, and metal content, thereby facilitating commercial transactions, fiscal administration, and financial integration throughout the Confederation.\n\nThis monetary consolidation is a significant step toward a coherent economic structure, further strengthening the political and financial unity of [SCOPE.sC('target_country').GetName]."
-  00_ef_economic_event.5.a:0 "Support the unification"
- 
+  00_ef_economic_event.5.t:0 "Unificação Monetária em [SCOPE.sC(‘target_country’).GetName]"
+  00_ef_economic_event.5.d:1 "Harmonização das Moedas Regionais"
+  00_ef_economic_event.5.f:1 "O governo da Confederação da Alemanha do Norte anuncia o estabelecimento de um sistema monetário unificado centrado no #B [SCOPE.sC(‘target_country’).GetCustom(‘currency_name’)] [SCOPE.sC(‘target_country’).GetCustom(‘currency_symbol’)]#!. Esta reforma marca o fim de numerosas moedas regionais ainda circulando entre os estados membros e introduz um único meio de troca padronizado.\n\nA medida envolve a #b desmonetização#! da cunhagem local e a adoção de regras comuns para cunhagem, peso e teor metálico, facilitando assim as transações comerciais, a administração fiscal e a integração financeira em toda a Confederação.\n\nEsta consolidação monetária é um passo significativo rumo a uma estrutura econômica coerente, fortalecendo ainda mais a unidade política e financeira de [SCOPE.sC(‘target_country’).GetName]."
+  00_ef_economic_event.5.a:0 "Apoiar a unificação"
+
   #00_ef_economic_event.6
-  00_ef_economic_event.6.t:0 "Final Monetary Unification of [SCOPE.sC('target_country').GetName]"
-  00_ef_economic_event.6.d:1 "Introduction of the Goldmark"
-  00_ef_economic_event.6.f:1 "The government of [SCOPE.sC('target_country').GetName] announces the creation of a unified imperial currency, the #B [SCOPE.sC('target_country').GetCustom('currency_name')] [SCOPE.sC('target_country').GetCustom('currency_symbol')]#!, which will replace the various regional currencies as well as the [Localize('thaler_prussian_thaler')] @thaler_prussian_thaler! still circulating across the former German states.\n\nThis reform completes the monetary unification of the Empire by establishing a single, coherent standard based on gold, thereby consolidating the political and economic integration achieved since unification.\n\nThrough the adoption of this new imperial currency, the authorities aim to simplify trade, strengthen the national financial system, and reaffirm A econômica stability of the Reich on the international stage."
-  00_ef_economic_event.6.a:0 "Consolidate the unity of the Reich"
- 
+  00_ef_economic_event.6.t:0 "Unificação Monetária Final de [SCOPE.sC(‘target_country’).GetName]"
+  00_ef_economic_event.6.d:1 "Introdução do Goldmark"
+  00_ef_economic_event.6.f:1 "O governo de [SCOPE.sC(‘target_country’).GetName] anuncia a criação de uma moeda imperial unificada, o #B [SCOPE.sC(‘target_country’).GetCustom(‘currency_name’)] [SCOPE.sC(‘target_country’).GetCustom(‘currency_symbol’)]#!, que substituirá as diversas moedas regionais, bem como o [Localize(‘thaler_prussian_thaler’)] @thaler_prussian_thaler! ainda circulando pelos antigos estados alemães.\n\nEsta reforma completa a unificação monetária do Império ao estabelecer um único padrão coerente baseado no ouro, consolidando assim a integração política e econômica alcançada desde a unificação.\n\nAtravés da adoção desta nova moeda imperial, as autoridades visam simplificar o comércio, fortalecer o sistema financeiro nacional e reafirmar a estabilidade econômica do Reich no cenário internacional."
+  00_ef_economic_event.6.a:0 "Consolidar a unidade do Reich"
+
   #00_ef_economic_event.7
-  00_ef_economic_event.7.t:0 "Monetary Unification of [SCOPE.sC('target_country').GetName]"
-  00_ef_economic_event.7.d:1 "Introduction of the #b [Localize('lira')] Italian @lira!#!"
-  00_ef_economic_event.7.f:1 "The Kingdom of Italy announces today the adoption of a unified national currency, the [Localize('lira')] Italian @lira!, intended to replace the numerous regional currencies formerly used across the states of the peninsula.\n\nThe following currencies are thus #b demonetized#! and will no longer be redeemable for precious metal: #b [Localize('lira_ducato')] @lira_ducato!, [Localize('lira_scudo_pontificio')] @lira_scudo_pontificio!, [Localize('lira_scudo_sardo')] @lira_scudo_sardo!, [Localize('lira_toscane_lira')] @lira_toscane_lira!#!.\n\nThis reform represents a crucial step in A econômica unification of the country, establishing a coherent and centralized monetary system for the entire Kingdom.\n\nThe authorities hope that this transition will facilitate trade, strengthen financial administration, and contribute to A econômica integration of the newly unified Italian state."
-  00_ef_economic_event.7.a:0 "Consolidate Italian unity"
+  00_ef_economic_event.7.t:0 "Unificação Monetária de [SCOPE.sC(‘target_country’).GetName]"
+  00_ef_economic_event.7.d:1 "Introdução da #b [Localize(‘lira’)] Italiana @lira!#!"
+  00_ef_economic_event.7.f:1 "O Reino da Itália anuncia hoje a adoção de uma moeda nacional unificada, a [Localize(‘lira’)] Italiana @lira!, destinada a substituir as numerosas moedas regionais anteriormente usadas pelos estados da península.\n\nAs seguintes moedas são assim #b desmonetizadas#! e não serão mais resgatáveis em metal precioso: #b [Localize(‘lira_ducato’)] @lira_ducato!, [Localize(‘lira_scudo_pontificio’)] @lira_scudo_pontificio!, [Localize(‘lira_scudo_sardo’)] @lira_scudo_sardo!, [Localize(‘lira_toscane_lira’)] @lira_toscane_lira!#!.\n\nEsta reforma representa um passo crucial na unificação econômica do país, estabelecendo um sistema monetário coerente e centralizado para todo o Reino.\n\nAs autoridades esperam que esta transição facilite o comércio, fortaleça a administração financeira e contribua para a integração econômica do recém-unificado estado italiano."
+  00_ef_economic_event.7.a:0 "Consolidar a unidade italiana"
 
   ##################
   #Union latine
   ##################
 
   #00_ef_economic_event.8
- 00_ef_economic_event.8.t:0 "[SCOPE.sC('target_country').GetAdjective] Proposal for an International Monetary Conference"
- 00_ef_economic_event.8.d:1 "Towards a Harmonization of Latin Currencies"
- 00_ef_economic_event.8.f:1 "The [SCOPE.sC('target_country').GetAdjective] government today invites several neighboring nations to take part in an international monetary conference aimed at harmonizing the weight, fineness, and value of gold and silver coinage.\n\nThe goal of this initiative is to facilitate monetary circulation between states, stabilize exchanges, and lay the groundwork for a potential common system among the Latin countries and, more broadly, across Europe.\n\nThe governments contacted must now decide whether they wish to participate in these negotiations."
-  00_ef_economic_event.8.a:0 "Join the talks"
-  00_ef_economic_event.8.b:0 "Acknowledge"
+ 00_ef_economic_event.8.t:0 "Proposta [SCOPE.sC(‘target_country’).GetAdjective] para uma Conferência Monetária Internacional"
+ 00_ef_economic_event.8.d:1 "Rumo a uma Harmonização das Moedas Latinas"
+ 00_ef_economic_event.8.f:1 "O governo [SCOPE.sC(‘target_country’).GetAdjective] convida hoje várias nações vizinhas a participar de uma conferência monetária internacional destinada a harmonizar o peso, pureza e valor da cunhagem de ouro e prata.\n\nO objetivo desta iniciativa é facilitar a circulação monetária entre estados, estabilizar as trocas e lançar as bases para um sistema comum potencial entre os países latinos e, mais amplamente, em toda a Europa.\n\nOs governos contactados devem agora decidir se desejam participar destas negociações."
+  00_ef_economic_event.8.a:0 "Participar das negociações"
+  00_ef_economic_event.8.b:0 "Tomar conhecimento"
 
   #00_ef_economic_event.9
-  00_ef_economic_event.9.t:0 "Progress in the Latin Monetary Union Talks"
-  00_ef_economic_event.9.d:0 "Negotiations advance"
-  00_ef_economic_event.9.f:0 "The states participating in the discussions surrounding the future #b Latin Monetary Union#! continue to make progress. Despite disagreements over the weight, fineness, and gold–silver ratio of the coinage, the talks advance within a climate of sustained diplomacy.\n\nThe convention remains open: any interested country may still join the negotiations and influence the drafting of the final treaty."
-  00_ef_economic_event.9.a:0 "Join the talks"
-  00_ef_economic_event.9.b:0 "Acknowledge"
- 
+  00_ef_economic_event.9.t:0 "Progresso nas Negociações da União Monetária Latina"
+  00_ef_economic_event.9.d:0 "As negociações avançam"
+  00_ef_economic_event.9.f:0 "Os estados participantes das discussões sobre a futura #b União Monetária Latina#! continuam a progredir. Apesar de desacordos sobre o peso, pureza e proporção ouro-prata da cunhagem, as negociações avançam em um clima de diplomacia sustentada.\n\nA convenção permanece aberta: qualquer país interessado ainda pode se juntar às negociações e influenciar a redação do tratado final."
+  00_ef_economic_event.9.a:0 "Participar das negociações"
+  00_ef_economic_event.9.b:0 "Tomar conhecimento"
+
   #00_ef_economic_event.10
-  00_ef_economic_event.10.t:0 "Four Years of Latin Union Negotiations"
-  00_ef_economic_event.10.d:0 "Talks drag on"
-  00_ef_economic_event.10.f:0 "It has now been four years since the delegations first convened to outline the foundations of a future #b Latin Monetary Union#!. Conferences follow one another, reports accumulate, and experts continue to debate the standards to be adopted.\n\nDespite the slow pace, gradual compromises are beginning to take shape: positions converge on metal parity, coin fineness, and unified minting practices. The convention remains open, and any nation may still join the ongoing negotiations."
-  00_ef_economic_event.10.a:0 "Join the talks"
-  00_ef_economic_event.10.b:0 "Acknowledge"
+  00_ef_economic_event.10.t:0 "Quatro Anos de Negociações da União Latina"
+  00_ef_economic_event.10.d:0 "As negociações se arrastam"
+  00_ef_economic_event.10.f:0 "Já se passaram quatro anos desde que as delegações se reuniram pela primeira vez para delinear os fundamentos de uma futura #b União Monetária Latina#!. As conferências se sucedem, os relatórios se acumulam e os especialistas continuam a debater os padrões a serem adotados.\n\nApesar do ritmo lento, compromissos graduais começam a tomar forma: as posições convergem sobre a paridade dos metais, a pureza das moedas e as práticas de cunhagem unificadas. A convenção permanece aberta, e qualquer nação ainda pode se juntar às negociações em andamento."
+  00_ef_economic_event.10.a:0 "Participar das negociações"
+  00_ef_economic_event.10.b:0 "Tomar conhecimento"
 
 #00_ef_economic_event.11
-00_ef_economic_event.11.t:0 "[SCOPE.sC('target_country').GetName] Enters Monetary Negotiations"
-00_ef_economic_event.11.d:1 "[SCOPE.sC('target_country').GetAdjectiveNoFormatting] Participation in the Latin Union Discussions"
-00_ef_economic_event.11.f:1 "The [SCOPE.sC('target_country').GetAdjective] government announces its participation in the diplomatic talks aimed at harmonizing silver and gold coinage standards among the Latin nations.\n\nAlready closely aligned with the French monetary system, [SCOPE.sC('target_country').GetName] sees in these negotiations an opportunity to strengthen its trade relations and reinforce the stability of its own currency.\n\n[SCOPE.sC('target_country').GetAdjective] representatives thus join the preparatory work for what may develop into a regional monetary union."
-00_ef_economic_event.11.a:0 "Welcome the [SCOPE.sC('target_country').GetAdjectiveNoFormatting] Delegation"
+00_ef_economic_event.11.t:0 "[SCOPE.sC(‘target_country’).GetName] Entra nas Negociações Monetárias"
+00_ef_economic_event.11.d:1 "Participação [SCOPE.sC(‘target_country’).GetAdjectiveNoFormatting] nas Discussões da União Latina"
+00_ef_economic_event.11.f:1 "O governo [SCOPE.sC(‘target_country’).GetAdjective] anuncia sua participação nas negociações diplomáticas destinadas a harmonizar os padrões de cunhagem de prata e ouro entre as nações latinas.\n\nJá intimamente alinhado com o sistema monetário francês, [SCOPE.sC(‘target_country’).GetName] vê nestas negociações uma oportunidade de fortalecer suas relações comerciais e reforçar a estabilidade de sua própria moeda.\n\nRepresentantes [SCOPE.sC(‘target_country’).GetAdjective] se juntam assim ao trabalho preparatório para o que pode se desenvolver em uma união monetária regional."
+00_ef_economic_event.11.a:0 "Receber bem a Delegação [SCOPE.sC(‘target_country’).GetAdjectiveNoFormatting]"
 
 
   #00_ef_economic_event.12
-  00_ef_economic_event.12.t:0 "Signature of the Latin Monetary Union Treaty"
-  00_ef_economic_event.12.d:1 "[SCOPE.sC('target_country').GetName] Signs the Twenty-Year Convention" 
-  00_ef_economic_event.12.f:1 "The government of [SCOPE.sC('target_country').GetName] has formally signed the #v Latin Monetary Union Treaty#!, entering a twenty-year commitment to adopt the shared monetary standards defined by the convention.\n \n By ratifying the agreement, [SCOPE.sC('target_country').GetName] accepts the French-led parity between gold and silver, aligns the value of its currency with the Union’s reference standard, and agrees to the gradual harmonization of its coinage with that of the other signatory states.\n \n This commitment marks a significant step toward deeper financial integration and the free circulation of standardized gold and silver coins among the members of the Union."
-  00_ef_economic_event.12.a:0 "Affirm the commitment"
+  00_ef_economic_event.12.t:0 "Assinatura do Tratado da União Monetária Latina"
+  00_ef_economic_event.12.d:1 "[SCOPE.sC(‘target_country’).GetName] Assina a Convenção de Vinte Anos"
+  00_ef_economic_event.12.f:1 "O governo de [SCOPE.sC(‘target_country’).GetName] assinou formalmente o #v Tratado da União Monetária Latina#!, entrando em um compromisso de vinte anos para adotar os padrões monetários compartilhados definidos pela convenção.\n \n Ao ratificar o acordo, [SCOPE.sC(‘target_country’).GetName] aceita a paridade entre ouro e prata liderada pela França, alinha o valor de sua moeda com o padrão de referência da União e concorda com a harmonização gradual de sua cunhagem com a dos outros estados signatários.\n \n Este compromisso marca um passo significativo em direção a uma integração financeira mais profunda e à livre circulação de moedas de ouro e prata padronizadas entre os membros da União."
+  00_ef_economic_event.12.a:0 "Afirmar o compromisso"
 
   ##################
   #Union scandinave
   ##################
  
- 00_ef_economic_event.19.t:0 "[SCOPE.sC('target_country').GetAdjectiveNoFormatting] Proposal for a Scandinavian Monetary Union"
- 00_ef_economic_event.19.d:0 "Towards Nordic Financial Cooperation"
- 00_ef_economic_event.19.f:0 "The [SCOPE.sC('target_country').GetAdjectiveNoFormatting] government proposes the convening of a conference bringing together the Scandinavian kingdoms, with the aim of studying the creation of a monetary union based on the Padrão-Ouro.\n\nThe goal of this initiative is to facilitate trade, stabilize the respective values of the krona and krone, and establish a common financial framework among the Nordic nations.\n\nThe states contacted must now decide whether they wish to participate in these discussions."
- 00_ef_economic_event.19.a:0 "Join the talks"
- 00_ef_economic_event.19.b:0 "Acknowledge"
+ 00_ef_economic_event.19.t:0 "[SCOPE.sC('target_country').GetAdjectiveNoFormatting] Proposta para uma União Monetária Escandinava"
+ 00_ef_economic_event.19.d:0 "Rumo à Cooperação Financeira Nórdica"
+ 00_ef_economic_event.19.f:0 "O governo [SCOPE.sC('target_country').GetAdjectiveNoFormatting] propõe a convocação de uma conferência reunindo os reinos escandinavos, com o objetivo de estudar a criação de uma união monetária baseada no Padrão-Ouro.\n\nO objetivo desta iniciativa é facilitar o comércio, estabilizar os respectivos valores da coroa e da coroa, e estabelecer um quadro financeiro comum entre as nações nórdicas.\n\nOs estados contatados devem agora decidir se desejam participar destas discussões."
+ 00_ef_economic_event.19.a:0 "Participar das negociações"
+ 00_ef_economic_event.19.b:0 "Tomar conhecimento"
 
- 00_ef_economic_event.20.t:0 "Progress in the Scandinavian Monetary Union Talks"
- 00_ef_economic_event.20.d:0 "Negotiations advance"
- 00_ef_economic_event.20.f:0 "The states participating in the discussions surrounding the future #b Scandinavian Monetary Union#! continue to make progress. Although disagreements remain regarding the adoption of a shared Padrão-Ouro and the harmonization of minting practices, the talks advance within a climate of sustained diplomacy.\n\nThe convention remains open: any interested country in scandinavia may still join the negotiations and influence the drafting of the final agreement."
- 00_ef_economic_event.20.a:0 "Join the talks"
- 00_ef_economic_event.20.b:0 "Acknowledge"
+ 00_ef_economic_event.20.t:0 "Progresso nas Negociações da União Monetária Escandinava"
+ 00_ef_economic_event.20.d:0 "Negociações avançam"
+ 00_ef_economic_event.20.f:0 "Os estados participantes nas discussões em torno da futura #b União Monetária Escandinava#! continuam a progredir. Embora persistam desacordos quanto à adoção de um Padrão-Ouro compartilhado e à harmonização das práticas de cunhagem, as negociações avançam num clima de diplomacia sustentada.\n\nA convenção permanece aberta: qualquer país interessado na Escandinávia ainda pode juntar-se às negociações e influenciar a redação do acordo final."
+ 00_ef_economic_event.20.a:0 "Participar das negociações"
+ 00_ef_economic_event.20.b:0 "Tomar conhecimento"
 
- 00_ef_economic_event.21.t:0 "Two Years of Scandinavian Union Negotiations"
- 00_ef_economic_event.21.d:0 "Talks drag on"
+ 00_ef_economic_event.21.t:0 "Dois Anos de Negociações da União Escandinava"
+ 00_ef_economic_event.21.d:0 "Negociações se arrastam"
  00_ef_economic_event.21.f:0 "It has now been two years since the delegations first convened to outline the foundations of a future #b Scandinavian Monetary Union#!. Meetings follow one another, documents pile up, and experts continue to debate the technical conditions required for a shared gold-based system.\n\nDespite the slow pace, gradual compromises are emerging: positions begin to align on the adoption of a common Padrão-Ouro and on the harmonization of minting practices. The convention remains open, and any interested state in scandinavia may still join the ongoing negotiations."
  00_ef_economic_event.21.a:0 "Join the talks"
  00_ef_economic_event.21.b:0 "Acknowledge"
